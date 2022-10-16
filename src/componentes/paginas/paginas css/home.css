@@ -1,0 +1,204 @@
+.sideMenu{
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #fda900;
+  margin-right: -250px;
+  transition: 0.5s;
+}
+
+.sideMenu ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 45px;
+  margin-left: 40px;
+}
+
+.sideMenu a{
+  text-decoration: none;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: #000;
+  display: block;
+}
+
+.sideMenu a:hover{
+  color: white;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.help {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(Umirror.gif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.help .text {
+  color: #fda900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+  text-align: center;
+}
+
+.help .text #slogan {
+  font-size: 8vh;
+}
+
+.help .text h3{
+  width: 87%;
+  font-size: 22px;
+}
+
+.yeye
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.yeye .image{
+  width: 55%;
+  height: 100vh;
+}
+
+.yeye .giftext h1{
+  color: #fda900;
+  text-align: justify;
+  text-align-last: center;
+  width: 100%;
+  height: 40%;
+  padding: 50px;
+}
+
+.yeye .giftext h4{
+  color: white; 
+  text-align: justify;
+  text-align-last: center;
+  width: 100%;
+  height: 40%;
+  padding: 40px;
+  font-size: 17px;
+}
+
+.yeye2{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.yeye2 .image2{
+  width: 55%;
+  height: 100vh;
+}
+
+.yeye2 .place h4{
+  color: #fda900;
+  text-align: justify;
+  text-align-last: center;
+  font-size: 22px;
+  width: 100%;
+  height: 40%;
+  align-items: left;
+  vertical-align: left;
+  padding: 50px;
+}
+
+/* Efeito typewriter */
+/* 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+} */
+
+/* The typewriter cursor effect */
+/* @keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+} */
+
+.info {
+  padding: 20px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.info h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+  background-color: #fda900;
+}
+
+.info .cont{
+  justify-content: center;
+  display: flex;
+}
+
+.info .cont .wrapper{
+  max-width: 340px;
+  padding: 20px;
+}
+
+.info .cont .wrapper h3{
+  text-align: center;
+  color: #fda900;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.info .cont .wrapper h4{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.cont img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vh;
+}

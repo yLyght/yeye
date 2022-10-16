@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: auto;
+    padding: 0.4rem;
+    background: rgba( 0, 0, 0, 0.85 );
+    transition: 0.5s;
+}
+
+.toggle
+{
+    position: flex;
+    width: 45px;
+    height: 45px;
+    background: #fda900 url(./menu.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+.toggle.active
+{
+    background: #000 url(./close.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 100;
+    transition: 0.5s;
+}
