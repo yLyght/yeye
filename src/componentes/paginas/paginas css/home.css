@@ -93,7 +93,7 @@ body::-webkit-scrollbar {
   color: #fda900;
   text-align: justify;
   text-align-last: center;
-  width: 100%;
+  width: 60%;
   height: 40%;
   padding: 50px;
   font-size: 12px;
@@ -104,7 +104,7 @@ body::-webkit-scrollbar {
   color: white; 
   text-align: justify;
   text-align-last: center;
-  width: 100%;
+  width: 60%;
   height: 40%;
   padding: 40px;
   font-size: 12px;
