@@ -97,7 +97,7 @@ body::-webkit-scrollbar {
   height: 40%;
   padding: 50px;
   font-size: 12px;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .yeye .giftext h4{
@@ -108,7 +108,7 @@ body::-webkit-scrollbar {
   height: 40%;
   padding: 40px;
   font-size: 12px;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .yeye2{
@@ -130,11 +130,12 @@ body::-webkit-scrollbar {
   text-align: justify;
   text-align-last: center;
   font-size: 22px;
-  width: 100%;
+  width: 60%;
   height: 40%;
   align-items: left;
   vertical-align: left;
   padding: 50px;
+  margin-right: 40px;
 }
 
 /* Efeito typewriter */
