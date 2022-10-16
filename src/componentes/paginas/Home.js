@@ -8,10 +8,12 @@ import lucas from "./paginas css/photos/lucas.jpeg"
 import joao from "./paginas css/photos/joao.jpeg"
 import luiz from "./paginas css/photos/luiz.jpg"
 import menuclose from "../botão/menuClose"
+import scaleBasedOnWindow from "../try"
 
 function Home() {
     return (
         <div>
+            {scaleBasedOnWindow}
             <div className="sideMenu" id="sideMenu" onMouseLeave={menuclose}>
                     <ul>
                         <li>
