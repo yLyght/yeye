@@ -13,7 +13,6 @@ import scaleBasedOnWindow from "../try"
 function Home() {
     return (
         <div>
-            {scaleBasedOnWindow}
             <div className="sideMenu" id="sideMenu" onMouseLeave={menuclose}>
                     <ul>
                         <li>
